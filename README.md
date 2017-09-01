@@ -1,9 +1,15 @@
 # one-time-pad
 
+A small suite of executables to facilitate encryption and decryption of uppercase alphabetical messages of varying lengths. Includes a keygen program to create a cipher of the specified length, two programs that run as servers and listen for connections before accepting and encoding / decoding the provided message using the provided cipher, and two client programs that connect to the aforementioned servers to send / receive messages.
+
 ## Compile
 Run 'compileall' using ./compileall (may need to use chmod first).
 
 ## Usage
+
+### keygen
+keygen <length>
+
 ### otp_enc_d
 otp_enc_d \<port\>
 
