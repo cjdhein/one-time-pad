@@ -15,5 +15,5 @@ USAGE: otp_dec <cipher filename> <key filename> <port>
 OTP_ENC
 USAGE: otp_enc <text filename> <key filename> <port>
 
-#misc:
+# Notes:
 The otp_enc and otp_dec programs output to stdout, so in order to get a file to pass to the respective program, output needs to be redirected.
